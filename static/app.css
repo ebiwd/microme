@@ -1,5 +1,6 @@
 /* code custom to this site*/
 div#local-masthead { background: #fff; }
+h2.title { color: #111; }
 
 /* style the menu like the old site */
 #local-masthead h1, #local-masthead h4, #local-masthead p, #local-masthead a {
