@@ -1,4 +1,5 @@
 /* code custom to this site*/
+div#local-masthead { background: #fff; }
 
 /* style the menu like the old site */
 #local-masthead h1, #local-masthead h4, #local-masthead p, #local-masthead a {
