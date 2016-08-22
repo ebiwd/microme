@@ -1,0 +1,165 @@
+/*
+Copyright [2009-2014] EMBL-European Bioinformatics Institute
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+     http://www.apache.org/licenses/LICENSE-2.0
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+body {
+ margin: 0 auto;
+ width: 100%;
+}
+
+#content {
+  padding: 0 15px;
+  width: 100%;
+}
+
+#search-form {
+  margin-top: 50px;
+}
+
+#search-tips {
+  margin-bottom: 30px;
+}
+
+#search-target {
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
+
+.badge {
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+
+.modal-dialog {
+  width: 700px;
+}
+
+.modal-body code{
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+ color: #999999;
+ background-color: #FFFFFF;
+}
+
+.example-query {
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 1px solid #CCCCCC;
+}
+
+.centered{
+  text-align: center;
+}
+
+#beta-tag {
+  margin-left: 10px;
+}
+
+.inline-button {
+ padding: 4px 0 6px 0;
+}
+
+#search_progress {
+ margin-top: 20px;
+ text-align: center;
+ display:none;
+}
+
+#search_row {
+  display: none;
+  margin-top: 30px;
+}
+
+#search_well {
+  background-color: #eeeeee;
+}
+
+#search_results .odd {
+  background-color: #f0f0f0;
+}
+
+#search_results .even {
+  background-color: #ffffff;
+}
+
+#search_results th {
+  background-color: #b0cbe1;
+}
+
+#search_results #data_table th.sorting {
+  padding-right:20px;
+}
+
+.genome-details:hover {
+  background-color: #9eda9e;
+}
+
+.genome-details.open{
+  background-color: #da9e9e;
+}
+
+.genome-details.open:hover {
+   background-color: #e78282;
+}
+
+.pathway-name, .reaction-name {
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.genome-name, .reaction-master-name, .download-name {
+  display:none;
+}
+
+.missing-reaction a {
+  color: red;
+}
+
+
+#data_table td.detailRow {
+    -moz-box-shadow:inset 0 0 10px 0 #222;
+    -webkit-box-shadow:inset 0 0 10px 0 #222;
+    box-shadow:inset 0 0 10px 0 #222;
+    padding: 5px 25px 5px 25px;
+    background: #eaeded!important;
+}
+
+td.detailRow table {
+  border-collapse:collapse;
+  border:1px solid #999999;
+  background: #EFEFEF;
+}
+
+td.detailRow table td, td.detailRow table th {
+  border:1px solid #999999;
+}
+
+.ColVis {
+  text-align: right;
+  margin-bottom: 7px;
+}
+
+table.DTCR_clonedTable {
+  background-color: white;
+  z-index: 202;
+}
+
+div.DTCR_pointer {
+  width: 2px;
+  background-color: #0259C4;
+  z-index: 201;
+}
+
+/* EBI Style Fixes */
+div#local-masthead{background:#1d8086 url(../img/banner.jpg) top right no-repeat}

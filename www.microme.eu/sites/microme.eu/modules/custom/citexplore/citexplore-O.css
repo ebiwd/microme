@@ -1,0 +1,22 @@
+ge-node-add-publication #edit-title-wrapper {
+              padding-top:15px;
+        clear:both;
+}
+
+#search-citexplore {
+        clear: both;
+        float:left;
+}
+
+#citexplore-throbber {
+display:none;
+float: left;
+margin-left: 10px;
+margin-top:2px;
+width:18px;
+height:18px;
+background: transparent url(../../../../../misc/throbber.gif) no-repeat 0px -18px;
+}
+
+
+/* Localized */
