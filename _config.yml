@@ -1,9 +1,9 @@
 # Site settings
-name: EBI Jekyll Boilerplate
-group: EMBL-EBI Web Development
-email: noreply@ebi.ac.uk
+name: Microme
+group: Microme
+email: pkersey@ebi.ac.uk
 domain: //ebiwd.github.io
-baseurl: /EBI-Boilerplate-Jekyll
+baseurl: /microme
 permalink: pretty
 
 # Add custom CSS / JS here
