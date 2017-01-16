@@ -13,11 +13,11 @@ Full documentation is [available here](https://help.github.com/articles/quick-st
 
 1. Configure the gh-pages branch
   * Create a `CNAME` file
-  * Add `yourdomainname.com` to that file
+  * Add `microme.eu` to that file
 
 2. Configrue your domain name's DNS
-  * Add a CNAME for www to point to `yourusername.github.io`
-  * If you want to point the root domainname.com to gh-pages, set the `A` record to `192.30.252.153`
+  * Add a CNAME for www to point to `ebiwd.github.io`
+  * If you want to point the root microme.eu to gh-pages, set the `A` record to `192.30.252.153`
   * You can also set a second `A` recored to `192.30.252.154`
   * When you're done it should look like:
 
@@ -25,4 +25,4 @@ Full documentation is [available here](https://help.github.com/articles/quick-st
    | ---      | ---         | ---    |
    | @        | A           | 192.30.252.153  |
    | @        | A           | 192.30.252.154  |
-   | WWW      | CNAME       | your_github_username.github.io  |
+   | WWW      | CNAME       | ebiwd.github.io  |
